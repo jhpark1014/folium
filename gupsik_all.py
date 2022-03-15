@@ -7,7 +7,7 @@ import os
 import webbrowser
 from python.SQL.sql_open_close import open_close
 from python.html.html_gupsik import popup_html
-# from folium.plugins import MarkerCluster
+from folium.plugins import MarkerCluster
 
 free_stores = pd.read_csv("d:/files/seoul_sql.csv", sep=',', encoding="utf-8")
 
@@ -23,7 +23,6 @@ latitude = [x.text for x in latitude]
 latitude = str(latitude[0])
 driver.quit()
 # print(latitude,longitude)
-print(latitude, longitude)
 
 map_free = folium.Map(location=[latitude, longitude], zoom_start=11.49999999)
 
