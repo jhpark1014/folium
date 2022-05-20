@@ -14,6 +14,8 @@ create_map.py 코드는 folium module을 사용해서 지도를 만들어준다
 - 각 가게의 위도와 경도에 팝업을 표시해준다
   - 이 팝업은 html_store.py의 popup_html 함수를 가져와 format한다
 - category.py에서 분류했던 데이터로 세개의 지도를 생성한다
+<img width="1439" alt="Screen Shot 2022-05-20 at 4 08 27 PM" src="https://user-images.githubusercontent.com/99851347/169473006-8eeb2276-0256-48bf-afde-a0a2252a8c0c.png">
+
 
 <무료급식소>
 sql_open_close.py는 sql구문을 실행하는 코드
